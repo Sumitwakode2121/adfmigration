@@ -1,0 +1,165 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevcheronnproject"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LSZ_CSVBULK_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_ENETFILES_accountKey": {
+			"value": ""
+		},
+		"LS_MANUALFILES_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLEFILES_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUETT_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSVV_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLSSINK_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_ADLSSINK1_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_TO_ADLSSINK_accountKey": {
+			"value": ""
+		},
+		"SapEcc1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-GPET89CM"
+		},
+		"DS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"DS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LSZ_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger001.dfs.core.windows.net/"
+		},
+		"LS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"LS_CSVBULK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger001.dfs.core.windows.net/"
+		},
+		"LS_ENETFILES_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger001.dfs.core.windows.net/"
+		},
+		"LS_MANUALFILES_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger001.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0011.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLEFILES_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUETT_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0011.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSVV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0011.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-GPET89CM"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLSSINK_properties_typeProperties_url": {
+			"value": "https://adlsdevbank0011.dfs.core.windows.net/"
+		},
+		"LS_SQL_ADLSSINK1_properties_typeProperties_url": {
+			"value": "https://adfdevdemodata.dfs.core.windows.net/"
+		},
+		"LS_SQL_TO_ADLSSINK_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0022.dfs.core.windows.net/"
+		},
+		"SapEcc1_properties_typeProperties_url": {
+			"value": "httpdata"
+		},
+		"SapEcc1_properties_typeProperties_username": {
+			"value": "sa"
+		},
+		"EVENTTRIGGER_MANUALFILES_properties_typeProperties_scope": {
+			"value": "/subscriptions/5aafb441-d8a1-4942-8463-9df5a9ea7776/resourceGroups/rgdevcheronproject/providers/Microsoft.Storage/storageAccounts/adlsdevcsvtrigger001"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
